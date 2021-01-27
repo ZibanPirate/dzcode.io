@@ -38,15 +38,6 @@ jobs:
           fail_ci_if_error: true
         env:
           CI: true
-      - name: Upload api directory coverage to Codecov
-        uses: codecov/codecov-action@v1
-        with:
-          flags: api
-          name: codecov-api
-          directory: ./api
-          fail_ci_if_error: true
-        env:
-          CI: true
       - name: Upload data directory coverage to Codecov
         uses: codecov/codecov-action@v1
         with:

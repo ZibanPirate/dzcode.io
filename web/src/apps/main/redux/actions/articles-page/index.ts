@@ -11,7 +11,6 @@ import { history } from "src/common/utils/history";
 import { listToTree } from "l2t";
 
 const dataURL = fullstackConfig.data.url;
-const apiURL = fullstackConfig.api.url;
 
 /**
  * Fetches the list of articles for the sidebar
@@ -56,29 +55,8 @@ export const fetchArticlesList = (): ThunkResult<ArticlesPageState> => async (
  */
 export const fetchCurrentArticleContributors = (): ThunkResult<
   ArticlesPageState | ArticlesState
-> => async (dispatch, getState) => {
-  const { currentArticle } = getState().articlesPage;
-  if (currentArticle && !currentArticle.contributors) {
-    const response = await Axios.get<GithubUser[]>(
-      apiURL + `/contributors?articleSlug=${currentArticle.slug}`,
-    );
-
-    if (response.data.hasOwnProperty("error")) {
-      throw Error("error_fetching_contributors");
-    }
-
-    const contributors = response.data;
-    // update our page state
-    dispatch({
-      type: "UPDATE_ARTICLES_PAGE",
-      payload: { currentArticle: { ...currentArticle, contributors } },
-    });
-    // update our cache state
-    dispatch({
-      type: "UPDATE_ARTICLES",
-      payload: { list: [{ ...currentArticle, contributors }] },
-    });
-  }
+> => async () => {
+  //
 };
 
 /**

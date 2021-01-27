@@ -12,7 +12,6 @@ You can find more about each folder by clicking on the folder name
 | :------------------- | :----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------: | ---------------------------------------------------: |
 | [./web](./web)       | [![codecov](https://codecov.io/gh/dzcode-io/dzcode.io/graph/badge.svg?flag=web)](https://codecov.io/gh/dzcode-io/dzcode.io)    |           [dzcode.io](https://dzcode.io) |           [stage.dzcode.io](https://stage.dzcode.io) |
 | [./data](./data)     | [![codecov](https://codecov.io/gh/dzcode-io/dzcode.io/graph/badge.svg?flag=data)](https://codecov.io/gh/dzcode-io/dzcode.io)   | [data.dzcode.io](https://data.dzcode.io) | [data.stage.dzcode.io](https://data.stage.dzcode.io) |
-| [./api](./api)       | [![codecov](https://codecov.io/gh/dzcode-io/dzcode.io/graph/badge.svg?flag=api)](https://codecov.io/gh/dzcode-io/dzcode.io)    |   [api.dzcode.io](https://api.dzcode.io) |   [api_stage.dzcode.io](https://api_stage.dzcode.io) |
 | [./common](./common) | [![codecov](https://codecov.io/gh/dzcode-io/dzcode.io/graph/badge.svg?flag=common)](https://codecov.io/gh/dzcode-io/dzcode.io) |                                          |                                                      |
 
 ## Table of Content
@@ -66,7 +65,6 @@ yarn dev
 
 - For web server to <http://localhost:8080>
 - For data server go to <http://localhost:9090>
-- For api server go to <http://localhost:7070>
 
 ## Contributing
 

@@ -8,14 +8,6 @@ export const fsConfig = (env: Environment, extra?: Record<string, unknown>) => {
   const hostname = extra?.hostname || "localhost";
   const e = ["development", "staging", "production"].indexOf(env);
   return {
-    api: {
-      port: apiPort,
-      url: [
-        `http://${hostname}:${apiPort}`,
-        "https://api_stage.dzcode.io",
-        "https://api.dzcode.io",
-      ][e],
-    },
     data: {
       port: dataPort,
       url: [

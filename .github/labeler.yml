@@ -1,8 +1,4 @@
-# Add 'api' to any changes within 'api' folder or any subfolders
-api:
-  - api/**/*
-
-  # Add 'data' to any changes within 'data' folder or any subfolders
+# Add 'data' to any changes within 'data' folder or any subfolders
 data:
   - data/**/*
 

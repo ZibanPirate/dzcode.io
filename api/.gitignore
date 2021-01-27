@@ -1,9 +1,0 @@
-dist
-coverage
-vultr/build
-
-# logs
-**.tsbuildinfo
-
-# node
-**node_modules
