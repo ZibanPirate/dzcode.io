@@ -1,19 +1,19 @@
-# Contributing to dzcode.io
+# Contributing to zakiii.com
 
 Contributions are always welcome. Before contributing please read the
-[code of conduct](https://github.com/dzcode-io/dzcode.io/blob/master/.github/CODE_OF_CONDUCT.md) &
-[search the issue tracker](https://github.com/dzcode-io/dzcode.io/issues); your issue
+[code of conduct](https://github.com/ZibanPirate/zakiii.com/blob/master/.github/CODE_OF_CONDUCT.md) &
+[search the issue tracker](https://github.com/ZibanPirate/zakiii.com/issues); your issue
 may have already been discussed or fixed in `master`. To contribute,
-[fork](https://help.github.com/articles/fork-a-repo/) dzcode.io, commit your changes,
+[fork](https://help.github.com/articles/fork-a-repo/) zakiii.com, commit your changes,
 & [send a pull request](https://help.github.com/articles/using-pull-requests/).
 
 ## Do you have a suggestion?
 
 Feature requests should be submitted in the
-[issue tracker](https://github.com/dzcode-io/dzcode.io/issues/new/choose), with a description of
+[issue tracker](https://github.com/ZibanPirate/zakiii.com/issues/new/choose), with a description of
 the expected behavior & use case.
 Before submitting a request, please search for similar ones in the
-[closed issues](https://github.com/dzcode-io/dzcode.io/issues?q=is%3Aissue+is%3Aclosed+label%3Aenhancement).
+[closed issues](https://github.com/ZibanPirate/zakiii.com/issues?q=is%3Aissue+is%3Aclosed+label%3Aenhancement).
 
 ## Did you find a bug?
 
@@ -26,7 +26,7 @@ When logging a bug, please be sure to answer the following:
 ## Do you have a question?
 
 The issue tracker is for **issues**, in other words, bugs and suggestions.
-If you have a _question_, please contact us via [EMail](mailto:contact@dzcode.io) or any of our social links.
+If you have a _question_, please contact us via [EMail](mailto:contact@zakiii.com) or any of our social links.
 
 ## Coding Guidelines
 
@@ -49,4 +49,4 @@ established in the code.
   [JSDoc-style](http://www.2ality.com/2011/08/jsdoc-intro.html) comments for
   functions.
 
-Guidelines are following the [.editorconfig](https://github.com/dzcode-io/dzcode.io/blob/master/.editorconfig) file.
+Guidelines are following the [.editorconfig](https://github.com/ZibanPirate/zakiii.com/blob/master/.editorconfig) file.

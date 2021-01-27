@@ -41,10 +41,10 @@ export const Landing: FC<LandingProps> = ({ onShowSidebar }) => {
       <img
         src={articlesLanding}
         className={classes.image}
-        alt="Dzcode i/o: Articles"
+        alt="zakiii: Articles"
       />
       <Typography className={classes.text}>
-        Welcome to the articles section of Dzcode i/o
+        Welcome to the articles section of zakiii.com
       </Typography>
       {md ? (
         <Typography className={classes.text}>

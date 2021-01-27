@@ -18,7 +18,7 @@ export const Loading: FC = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <img src={logoSquare} alt="DzCode i/o" className={classes.image} />
+      <img src={logoSquare} alt="zakiii" className={classes.image} />
     </div>
   );
 };

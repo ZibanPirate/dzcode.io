@@ -1,5 +1,5 @@
 import { Action } from "src/apps/main/redux";
-import { Article } from "@dzcode.io/common/dist/types";
+import { Article } from "@zakiii.com/common/dist/types";
 import { updateCollection } from "src/common/utils";
 
 export interface ArticlesState {

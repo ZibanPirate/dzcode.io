@@ -11,7 +11,7 @@ console.log("✅", urls.length, "URLs Found");
 
 // Dynamic URLs
 console.log("Getting Dynamic URLs ...");
-const data = require("@dzcode.io/common/dist/utils/data");
+const data = require("@zakiii.com/common/dist/utils/data");
 [
   { file: "articles", slug: "Articles" },
   { file: "documentation", slug: "Learn" },
@@ -26,7 +26,7 @@ console.log("✅", urls.length, "URLs Found");
 
 // Generate xml file
 const sitemap = new SitemapStream({
-  hostname: "https://www.dzCode.io/",
+  hostname: "https://www.zakiii.com/",
   cacheTime: 600000,
 });
 const path = join(distFolder, "w/main-sitemap.xml");

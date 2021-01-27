@@ -1,11 +1,4 @@
 {
-  "items": [
-    "Leblad",
-    "Mishkal",
-    "React_Project_Builder",
-    "Kuliya",
-    "DzCode",
-    "Algerian_Administrative_Division"
-  ],
+  "items": ["dzcode.io", "kuliya", "leblad"],
   "include": ["title", "description", "image", "githubURI"]
 }

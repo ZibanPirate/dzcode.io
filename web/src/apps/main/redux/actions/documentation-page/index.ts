@@ -1,4 +1,4 @@
-import { Document, GithubUser } from "@dzcode.io/common/dist/types";
+import { Document, GithubUser } from "@zakiii.com/common/dist/types";
 
 import Axios from "axios";
 import { DocumentationState } from "src/apps/main/redux/reducers/documentation";
@@ -11,7 +11,6 @@ import { history } from "src/common/utils/history";
 import { listToTree } from "l2t";
 
 const dataURL = fullstackConfig.data.url;
-const apiURL = fullstackConfig.api.url;
 
 /**
  * Fetches the list of documents for the sidebar
@@ -55,29 +54,8 @@ export const fetchDocumentationList = (): ThunkResult<LearnPageState> => async (
  */
 export const fetchCurrentDocumentContributors = (): ThunkResult<
   LearnPageState | DocumentationState
-> => async (dispatch, getState) => {
-  const { currentDocument } = getState().learnPage;
-  if (currentDocument && !currentDocument.contributors) {
-    const response = await Axios.get<GithubUser[]>(
-      apiURL + `/contributors?documentSlug=${currentDocument.slug}`,
-    );
-
-    if (response.data.hasOwnProperty("error")) {
-      throw Error("error_fetching_contributors");
-    }
-
-    const contributors = response.data;
-    // update our page state
-    dispatch({
-      type: "UPDATE_LEARN_PAGE",
-      payload: { currentDocument: { ...currentDocument, contributors } },
-    });
-    // update our cache state
-    dispatch({
-      type: "UPDATE_DOCUMENTATION",
-      payload: { list: [{ ...currentDocument, contributors }] },
-    });
-  }
+> => async () => {
+  //
 };
 
 /**

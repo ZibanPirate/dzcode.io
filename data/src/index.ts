@@ -1,7 +1,7 @@
 import {
   getDataCollection,
   getDataEntry,
-} from "@dzcode.io/common/dist/utils/data";
+} from "@zakiii.com/common/dist/utils/data";
 
 import express from "express";
 import { fullstackConfig } from "./config";

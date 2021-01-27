@@ -12,20 +12,17 @@ export const sections = [
   {
     title: "Social Media",
     links: [
-      { text: "Github", href: "https://www.github.com/dzcode-io" },
+      { text: "Github", href: "https://www.github.com/ZibanPirate" },
+      { text: "Facebook", href: "https://www.facebook.com/zakiii.man" },
       {
-        text: "Slack",
-        href:
-          "https://join.slack.com/t/dzcode/shared_invite/zt-ek9kscb7-m8z_~cBjX79l~uchuABPFQ",
+        text: "Instagram",
+        href: "https://www.instagram.com/https://www.instagram.com/zakiii.web",
       },
-      { text: "Facebook", href: "https://www.facebook.com/dzcode.io" },
-      { text: "Instagram", href: "https://www.instagram.com/dzcode.io" },
       {
         text: "YouTube",
-        href: "https://www.youtube.com/channel/UC_tLjuQaYotzERtaAo8Y4SQ",
+        href: "https://www.youtube.com/channel/UCD1rlkXciGqAi52iJtVpu3A",
       },
-      { text: "Twitter", href: "https://twitter.com/dzcode_io" },
-      { text: "LinkedIn", href: "https://www.linkedin.com/groups/8924363" },
+      { text: "Twitter", href: "https://twitter.com/zibanpirate" },
     ],
   },
 ];

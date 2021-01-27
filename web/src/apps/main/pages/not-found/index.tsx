@@ -29,7 +29,7 @@ const NotFound: FC = () => {
       <img
         className={classes.image}
         src={svg}
-        alt="DzCode i/o: 404 page not found"
+        alt="zakiii: 404 page not found"
       />
       <Typography className={classes.text}>
         Finally someone saw the 404 page that{" "}

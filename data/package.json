@@ -1,7 +1,7 @@
 {
-  "name": "@dzcode.io/data",
+  "name": "@zakiii.com/data",
   "version": "1.0.0",
-  "description": "dzCode.io data code",
+  "description": "zakiii.com data code",
   "scripts": {
     "clear": "rimraf ./dist",
     "lint:check": "yarn prettier:check && yarn eslint:check",
@@ -19,12 +19,12 @@
     "build:watch": "tsc --watch",
     "dev": "nodemon dist/index.js",
     "start": "node dist/index.js",
-    "deploy": "yarn build && yarn generate:data && rimraf ./firebase/public && cpx -u \"./dist/_data/**/*\" ./firebase/public && cd ./firebase && firebase deploy --only hosting:data.dzcode.io --token \"$FIREBASE_TOKEN\"",
-    "deploy:stg": "yarn build && yarn generate:data && rimraf ./firebase/public && cpx -u \"./dist/_data/**/*\" ./firebase/public && cd ./firebase && firebase deploy --only hosting:data.stage.dzcode.io --token \"$FIREBASE_TOKEN\""
+    "deploy": "yarn build && yarn generate:data && rimraf ./firebase/public && cpx -u \"./dist/_data/**/*\" ./firebase/public && cd ./firebase && firebase deploy --only hosting:data.zakiii.com --token \"$FIREBASE_TOKEN\"",
+    "deploy:stg": "yarn build && yarn generate:data && rimraf ./firebase/public && cpx -u \"./dist/_data/**/*\" ./firebase/public && cd ./firebase && firebase deploy --only hosting:data.stage.zakiii.com --token \"$FIREBASE_TOKEN\""
   },
   "repository": {
     "type": "git",
-    "repository": "https://github.com/dzcode-io/dzcode.io.git"
+    "repository": "https://github.com/ZibanPirate/zakiii.com.git"
   },
   "author": {
     "email": "contact@zakiii.com",
@@ -40,7 +40,7 @@
     ]
   },
   "dependencies": {
-    "@dzcode.io/common": "1.0.0",
+    "@zakiii.com/common": "1.0.0",
     "express": "^4.17.1",
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6"
