@@ -1,4 +1,4 @@
-import { Article, GithubUser } from "@dzcode.io/common/dist/types";
+import { Article, GithubUser } from "@zakiii.com/common/dist/types";
 
 import { ArticlesPageState } from "src/apps/main/redux/reducers/articles-page";
 import { ArticlesState } from "src/apps/main/redux/reducers/articles";

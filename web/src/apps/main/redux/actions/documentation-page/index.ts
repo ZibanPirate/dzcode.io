@@ -1,4 +1,4 @@
-import { Document, GithubUser } from "@dzcode.io/common/dist/types";
+import { Document, GithubUser } from "@zakiii.com/common/dist/types";
 
 import Axios from "axios";
 import { DocumentationState } from "src/apps/main/redux/reducers/documentation";

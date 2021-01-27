@@ -1,6 +1,6 @@
 ---
 name: Question
-about: The issue tracker is not for questions. Please use email contact@dzcode.io or other social links for help/questions.
+about: The issue tracker is not for questions. Please use email contact@zakiii.com or other social links for help/questions.
 labels: question
 ---
 
@@ -14,10 +14,8 @@ Please use one of the following resources for help:
 
 **Questions**
 
-- https://dzcode.slack.com/
-- https://twitter.com/dzcode_io
-- https://www.facebook.com/dzcode.io
-- https://www.facebook.com/groups/dzcode.io
-- https://www.youtube.com/channel/UC0wnf6wfwVkQtruKi61U7hw
+- https://twitter.com/zibanpirate
+- https://www.facebook.com/zakiii.man
+- https://www.youtube.com/channel/UCD1rlkXciGqAi52iJtVpu3A
 
 -->

@@ -70,7 +70,7 @@ export const FaqPage: FC = () => {
       <div className={classes.spacing} />
       <Typography className={classes.title}>
         Still need help? send us an email at{" "}
-        <a href="mailto:contact@dzcode.io">contact@dzcode.io</a>
+        <a href="mailto:contact@zakiii.com">contact@zakiii.com</a>
       </Typography>
     </>
   );

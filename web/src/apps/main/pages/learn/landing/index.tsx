@@ -38,13 +38,9 @@ export const Landing: FC<LandingProps> = ({ onShowSidebar }) => {
 
   return (
     <div className={classes.root}>
-      <img
-        src={learnLanding}
-        className={classes.image}
-        alt="Dzcode i/o: Learn"
-      />
+      <img src={learnLanding} className={classes.image} alt="zakiii: Learn" />
       <Typography className={classes.text}>
-        Welcome to the learning section of Dzcode i/o
+        Welcome to the learning section of zakiii.com
       </Typography>
       {md ? (
         <Typography className={classes.text}>

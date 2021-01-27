@@ -1,15 +1,4 @@
 {
-  "items": [
-    "Leblad",
-    "Mishkal",
-    "React_Project_Builder",
-    "Kuliya",
-    "DzCode",
-    "Algerian_Administrative_Division",
-    "Flutter_Reaction_Button",
-    "Algeria_Covid19_Tracker",
-    "React_Native_Currency_Converter",
-    "Python_Complex"
-  ],
+  "items": ["dzcode.io", "kuliya", "leblad"],
   "include": ["title", "description", "image", "githubURI"]
 }

@@ -18,7 +18,7 @@ const plugins = [];
 const pages = [
   {
     uri: "/",
-    title: "DZ Open-Source | dzCode i/o",
+    title: "Zakaria Mansouri | Zakiii",
     description: "Algerian Open-Source Community",
     ogImage:
       "https://images.unsplash.com/photo-1527285341945-715b98b98ea2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&h=627&q=80",
@@ -43,7 +43,7 @@ if (process.env.NODE_ENV !== "development") {
     ],
   );
   // Dynamic URLs ----
-  const data = require("@dzcode.io/common/dist/utils/data");
+  const data = require("@zakiii.com/common/dist/utils/data");
   [
     { file: "articles", slug: "Articles" },
     { file: "documentation", slug: "Learn" },

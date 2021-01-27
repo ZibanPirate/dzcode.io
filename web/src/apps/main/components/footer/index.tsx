@@ -80,19 +80,16 @@ export const Footer: FC = () => {
             <Typography variant="h6" className={classes.categoryTitle}>
               Contact Information
             </Typography>
-            <a href="tel:+21367-626-1157">
+            <a href="mailto:contact@zakiii.com">
               <Typography className={classes.linkText}>
-                +213 06-76-26-11-57
-              </Typography>
-            </a>
-            <a href="mailto:contact@dzcode.io">
-              <Typography className={classes.linkText}>
-                contact@dzcode.io
+                contact@zakiii.com
               </Typography>
             </a>
             <Typography className={classes.linkText}>
               Copyright © 2020{" "}
-              <LinkV2 href="https://twitter.com/dzcode_io">@dzCode_io</LinkV2>
+              <LinkV2 href="https://twitter.com/zibanpirate">
+                @zibanpirate
+              </LinkV2>
             </Typography>
           </Grid>
         </Grid>

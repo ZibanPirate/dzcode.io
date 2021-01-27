@@ -2,10 +2,10 @@ import { hasIn, mergeDeep } from "immutable";
 
 export const getEnv = () => {
   switch (location.hostname) {
-    case "www.dzcode.io":
-    case "dzcode.io":
+    case "www.zakiii.com":
+    case "zakiii.com":
       return "production";
-    case "stage.dzcode.io":
+    case "stage.zakiii.com":
       return "staging";
     default:
       return "development";

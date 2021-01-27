@@ -12,16 +12,16 @@ export const fsConfig = (env: Environment, extra?: Record<string, unknown>) => {
       port: dataPort,
       url: [
         `http://${hostname}:${dataPort}`,
-        "https://data.stage.dzcode.io",
-        "https://data.dzcode.io",
+        "https://data.stage.zakiii.com",
+        "https://data.zakiii.com",
       ][e],
     },
     frontend: {
       port: frontendPort,
       url: [
         `http://${hostname}:${frontendPort}`,
-        "https://stage.dzcode.io",
-        "https://www.dzcode.io",
+        "https://stage.zakiii.com",
+        "https://www.zakiii.com",
       ][e],
     },
   };

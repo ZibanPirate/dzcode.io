@@ -1,7 +1,7 @@
 {
   "hosting": [
     {
-      "target": "dzcode.io",
+      "target": "zakiii.com",
       "public": "public",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "target": "stage.dzcode.io",
+      "target": "stage.zakiii.com",
       "public": "public",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [

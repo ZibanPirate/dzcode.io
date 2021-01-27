@@ -1,7 +1,7 @@
 import {
   getDataCollection,
   getDataEntry,
-} from "@dzcode.io/common/dist/utils/data";
+} from "@zakiii.com/common/dist/utils/data";
 
 import fse from "fs-extra";
 import glob from "glob";

@@ -1,15 +1,15 @@
 {
   "projects": {
-    "default": "dzcode-io"
+    "default": "zakiii"
   },
   "targets": {
-    "dzcode-io": {
+    "zakiii": {
       "hosting": {
-        "dzcode.io": [
-          "dzcode-io"
+        "zakiii.com": [
+          "zakiii-com"
         ],
-        "stage.dzcode.io": [
-          "staging-dzcode-io"
+        "stage.zakiii.com": [
+          "staging-zakiii-com"
         ]
       }
     }

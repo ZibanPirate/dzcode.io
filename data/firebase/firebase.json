@@ -1,7 +1,7 @@
 {
   "hosting": [
     {
-      "target": "data.dzcode.io",
+      "target": "data.zakiii.com",
       "public": "public",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "headers": [
@@ -10,7 +10,7 @@
           "headers": [
             {
               "key": "Access-Control-Allow-Origin",
-              "value": "https://www.dzcode.io"
+              "value": "https://www.zakiii.com"
             },
             { "key": "Cache-Control", "value": "no-cache" }
           ]
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "target": "data.stage.dzcode.io",
+      "target": "data.stage.zakiii.com",
       "public": "public",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "headers": [
@@ -27,7 +27,7 @@
           "headers": [
             {
               "key": "Access-Control-Allow-Origin",
-              "value": "https://stage.dzcode.io"
+              "value": "https://stage.zakiii.com"
             },
             { "key": "Cache-Control", "value": "no-cache" }
           ]
